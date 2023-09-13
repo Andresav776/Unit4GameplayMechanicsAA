@@ -242,6 +242,10 @@ MonoBehaviour:
   - {fileID: 240348707607446579, guid: 8f1d38fca32b38248b26b7466ea84337, type: 3}
   - {fileID: 2811075205162089118, guid: e41e0a8ca09fff440bab0481997a7bb9, type: 3}
   - {fileID: 1034523961053655348, guid: 3a7c34c975698fe46baf27ce1ddc15f7, type: 3}
+  bossPrefab: {fileID: 1594199405958592990, guid: e37a042520d063b43b88a19b085c5bc1, type: 3}
+  miniEnemyPrefabs:
+  - {fileID: 8918115828160324216, guid: 96005d7c891c42643bdb392f97b48c65, type: 3}
+  bossRound: 5
 --- !u!4 &265506801
 Transform:
   m_ObjectHideFlags: 0
@@ -534,8 +538,8 @@ MonoBehaviour:
   rocketPrefab: {fileID: 6869217936336591538, guid: 2eef2209889784e48a56e0ff9f925d2d, type: 3}
   hangTime: 1
   smashSpeed: 10
-  explosionForce: 15
-  explosionRadius: 20
+  explosionForce: 125
+  explosionRadius: 15
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
